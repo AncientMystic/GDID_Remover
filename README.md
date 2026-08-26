@@ -68,7 +68,7 @@ This tool is **privacy‑respecting by design**:
 
 ## Installation & First Run
 
-### Run from source
+### Option 1 – Run from source
 
 1. Clone or download this repository.
 2. Install dependencies:
@@ -77,9 +77,17 @@ This tool is **privacy‑respecting by design**:
    ```
 3. Run the script **as administrator**:
    ```bash
+   python gdid_remover.py 
+   ```
+   or to run separately from the terminal so it is safe to close:
+   ```bash
    pythonw.exe gdid_remover.py
    ```
    The script will prompt for elevation if not already elevated.
+
+### Option 2 – Use a pre‑packaged executable (if provided)
+
+Download the latest `.exe` from the [Releases](../../releases) page, right‑click and choose **“Run as administrator”**.
 
 ---
 
